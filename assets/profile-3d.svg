@@ -49,34 +49,40 @@
   <path class="dash" d="M90 260 C210 110 345 300 476 165 S705 55 885 210" stroke="url(#purple)" stroke-width="2.5" opacity=".55"/>
   <path class="dash" d="M75 122 C260 225 360 65 505 118 S720 260 910 95" stroke="url(#cyan)" stroke-width="2" opacity=".38"/>
 
-  <g transform="translate(118 86)" class="float-a">
-    <polygon points="52,0 104,30 52,60 0,30" fill="#00D9FF" opacity=".95"/>
-    <polygon points="0,30 52,60 52,122 0,92" fill="#1488A6"/>
-    <polygon points="104,30 52,60 52,122 104,92" fill="#2CB67D"/>
-    <path d="M52 0v60M0 30v62M104 30v62M52 60v62" stroke="#DFFBFF" opacity=".45"/>
+  <g transform="translate(118 86)">
+    <g class="float-a">
+      <polygon points="52,0 104,30 52,60 0,30" fill="#00D9FF" opacity=".95"/>
+      <polygon points="0,30 52,60 52,122 0,92" fill="#1488A6"/>
+      <polygon points="104,30 52,60 52,122 104,92" fill="#2CB67D"/>
+      <path d="M52 0v60M0 30v62M104 30v62M52 60v62" stroke="#DFFBFF" opacity=".45"/>
+    </g>
   </g>
 
-  <g transform="translate(763 74)" class="float-b">
-    <polygon points="42,0 84,24 42,48 0,24" fill="#7F5AF0"/>
-    <polygon points="0,24 42,48 42,100 0,76" fill="#5636B8"/>
-    <polygon points="84,24 42,48 42,100 84,76" fill="#00D9FF"/>
-    <path d="M42 0v48M0 24v52M84 24v52M42 48v52" stroke="#FFFFFF" opacity=".38"/>
+  <g transform="translate(763 74)">
+    <g class="float-b">
+      <polygon points="42,0 84,24 42,48 0,24" fill="#7F5AF0"/>
+      <polygon points="0,24 42,48 42,100 0,76" fill="#5636B8"/>
+      <polygon points="84,24 42,48 42,100 84,76" fill="#00D9FF"/>
+      <path d="M42 0v48M0 24v52M84 24v52M42 48v52" stroke="#FFFFFF" opacity=".38"/>
+    </g>
   </g>
 
-  <g transform="translate(700 220)" class="float-c">
-    <polygon points="34,0 68,20 34,40 0,20" fill="#2CB67D"/>
-    <polygon points="0,20 34,40 34,82 0,62" fill="#16835A"/>
-    <polygon points="68,20 34,40 34,82 68,62" fill="#00D9FF"/>
+  <g transform="translate(700 220)">
+    <g class="float-c">
+      <polygon points="34,0 68,20 34,40 0,20" fill="#2CB67D"/>
+      <polygon points="0,20 34,40 34,82 0,62" fill="#16835A"/>
+      <polygon points="68,20 34,40 34,82 68,62" fill="#00D9FF"/>
+    </g>
   </g>
 
-  <g transform="translate(294 78)">
-    <rect width="392" height="214" rx="18" fill="#0B1020" stroke="#263454" stroke-width="2"/>
-    <rect x="16" y="18" width="360" height="30" rx="10" fill="#121B33"/>
+  <g transform="translate(230 74)">
+    <rect width="520" height="222" rx="18" fill="#0B1020" stroke="#263454" stroke-width="2"/>
+    <rect x="18" y="18" width="484" height="30" rx="10" fill="#121B33"/>
     <circle cx="38" cy="33" r="5" fill="#FF5F56"/>
     <circle cx="58" cy="33" r="5" fill="#FFBD2E"/>
     <circle cx="78" cy="33" r="5" fill="#27C93F"/>
 
-    <g font-family="JetBrains Mono, Fira Code, monospace" font-size="17" fill="#DFFBFF">
+    <g font-family="JetBrains Mono, Fira Code, monospace" font-size="15" fill="#DFFBFF">
       <text x="34" y="86" fill="#7F5AF0">class</text>
       <text x="92" y="86" fill="#00D9FF">Nguyen</text>
       <text x="166" y="86" fill="#DFFBFF">:</text>
@@ -89,10 +95,10 @@
       <text x="54" y="188" fill="#2CB67D">ship</text>
       <text x="112" y="188">=</text>
       <text x="138" y="188" fill="#FFB86C">"clean web apps"</text>
-      <rect class="type" x="304" y="174" width="10" height="21" rx="2" fill="#00D9FF"/>
+      <rect class="type" x="282" y="175" width="9" height="18" rx="2" fill="#00D9FF"/>
     </g>
 
-    <rect class="scan" x="24" y="54" width="344" height="44" rx="16" fill="url(#cyan)" opacity=".18"/>
+    <rect class="scan" x="26" y="54" width="468" height="44" rx="16" fill="url(#cyan)" opacity=".18"/>
   </g>
 
   <g filter="url(#glow)">
