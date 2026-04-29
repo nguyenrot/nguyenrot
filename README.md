@@ -77,17 +77,20 @@ nguyen = {
 
 ## 🌐 Connect With Me
 
-<a href="mailto:your-email@example.com">
+<a href="mailto:phamkynguyen753@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
-<a href="https://facebook.com/your-profile">
+<a href="https://www.facebook.com/phkynguyen">
   <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
 </a>
-<a href="https://linkedin.com/in/your-profile">
+<a href="https://www.linkedin.com/in/nguyen-pham-ky">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="https://portfolio.example.com">
-  <img src="https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=vercel&logoColor=0D1117" alt="Portfolio" />
+<a href="https://www.instagram.com/phkynguyen">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+</a>
+<a href="https://www.tiktok.com/@phamkynguyen">
+  <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
 </a>
 
 <br />
