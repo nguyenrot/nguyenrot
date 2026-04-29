@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=800&color=00D9FF&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Nguy%C3%AAn;Software+Development+Engineer+from+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam;I+build+clean+Django+%26+Python+web+apps;Code+with+clarity%2C+ship+with+care)](https://git.io/typing-svg)
 
-<img src="./assets/profile-3d-v2.svg" alt="Animated 3D coding workspace" width="100%" />
+<img src="./assets/profile-3d-v3.svg" alt="Animated 3D coding workspace" width="100%" />
 
 <img src="https://komarev.com/ghpvc/?username=nguyenrot&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/nguyenrot?style=for-the-badge&logo=github&color=7c3aed&labelColor=0d1117" alt="GitHub followers" />
