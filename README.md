@@ -1,8 +1,8 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,50:00D9FF,100:2CB67D&height=230&section=header&text=Nguy%C3%AAn&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Web%20Developer%20%E2%80%A2%20Django%20%2F%20Python&descAlignY=58&descSize=20)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,50:00D9FF,100:2CB67D&height=230&section=header&text=Nguy%C3%AAn&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Software%20Development%20Engineer%20%E2%80%A2%20Django%20%2F%20Python&descAlignY=58&descSize=20)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=800&color=00D9FF&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Nguy%C3%AAn;Web+Developer+from+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam;I+build+clean+Django+%26+Python+web+apps;Code+with+clarity%2C+ship+with+care)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=800&color=00D9FF&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Nguy%C3%AAn;Software+Development+Engineer+from+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam;I+build+clean+Django+%26+Python+web+apps;Code+with+clarity%2C+ship+with+care)](https://git.io/typing-svg)
 
 <img src="https://komarev.com/ghpvc/?username=nguyenrot&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/nguyenrot?style=for-the-badge&logo=github&color=7c3aed&labelColor=0d1117" alt="GitHub followers" />
@@ -15,7 +15,7 @@
 
 ### 👋 About Me
 
-I'm **Nguyên**, a **Web Developer** based in **Đà Nẵng, Việt Nam**.  
+I'm **Nguyên**, a **Software Development Engineer** based in **Đà Nẵng, Việt Nam**.  
 I enjoy building practical, polished web products with **Django**, **Python**, and modern frontend tools.
 
 - 🧠 I care about readable code, clean architecture, and useful user experiences.
@@ -28,7 +28,7 @@ I enjoy building practical, polished web products with **Django**, **Python**, a
 ```python
 nguyen = {
     "name": "Nguyên",
-    "role": "Web Developer",
+    "role": "Software Development Engineer",
     "location": "Đà Nẵng, Việt Nam",
     "main_stack": ["Python", "Django", "JavaScript"],
     "interests": ["Web Apps", "APIs", "Clean UI", "Automation"],
