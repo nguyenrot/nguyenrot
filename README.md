@@ -13,10 +13,6 @@
 
 <br />
 
-<table>
-  <tr>
-    <td width="55%" valign="top">
-
 ### 👋 About Me
 
 I'm **Nguyên**, a **Web Developer** based in **Đà Nẵng, Việt Nam**.  
@@ -26,9 +22,6 @@ I enjoy building practical, polished web products with **Django**, **Python**, a
 - 🚀 I like turning ideas into fast, maintainable web applications.
 - 🔧 Current stack: **Django**, **Python**, **REST APIs**, **PostgreSQL**, **HTML/CSS/JavaScript**.
 - 🌱 Always improving my backend depth and frontend craft.
-
-    </td>
-    <td width="45%" valign="top">
 
 ### ⚡ Quick Snapshot
 
@@ -41,10 +34,6 @@ nguyen = {
     "interests": ["Web Apps", "APIs", "Clean UI", "Automation"],
 }
 ```
-
-    </td>
-  </tr>
-</table>
 
 <br />
 
