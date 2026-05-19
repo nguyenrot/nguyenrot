@@ -1,105 +1,114 @@
-<div align="center">
+<a href="https://github.com/nguyenrot">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:18181b,100:0ea5e9&height=150&section=header&text=Nguy%C3%AAn&fontSize=68&fontColor=fafafa&fontAlignY=40&animation=fadeIn" alt="Header banner" width="100%" />
+</a>
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,50:00D9FF,100:2CB67D&height=230&section=header&text=Nguy%C3%AAn&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Software%20Development%20Engineer%20%E2%80%A2%20Django%20%2F%20Python&descAlignY=58&descSize=20)
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=900&duration=3000&color=0EA5E9&center=true&vCenter=true&width=760&lines=Software+Development+Engineer+%C2%B7+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam;Django+%C2%B7+Python+%C2%B7+PostgreSQL+%C2%B7+REST+APIs;Write+the+dull+parts+well+%E2%80%94+the+rest+gets+easier" alt="Headline rotator" />
+  </a>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=800&color=00D9FF&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Nguy%C3%AAn;Software+Development+Engineer+from+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam;I+build+clean+Django+%26+Python+web+apps;Code+with+clarity%2C+ship+with+care)](https://git.io/typing-svg)
+<p align="center">
+  <img src="./assets/profile-3d-v3.svg" alt="Animated coding workspace" width="100%" />
+</p>
 
-<img src="./assets/profile-3d-v3.svg" alt="Animated 3D coding workspace" width="100%" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=nguyenrot&style=flat-square&color=0ea5e9&labelColor=18181b&label=profile+views" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/nguyenrot?style=flat-square&logo=github&logoColor=fafafa&color=0ea5e9&labelColor=18181b&label=followers" alt="GitHub followers" />
+  <img src="https://img.shields.io/badge/focus-Django%20%26%20Python-0ea5e9?style=flat-square&labelColor=18181b" alt="Focus" />
+</p>
 
-<img src="https://komarev.com/ghpvc/?username=nguyenrot&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/nguyenrot?style=for-the-badge&logo=github&color=7c3aed&labelColor=0d1117" alt="GitHub followers" />
-<img src="https://img.shields.io/badge/Focus-Django%20%26%20Python-2cb67d?style=for-the-badge&labelColor=0d1117" alt="Focus badge" />
-<img src="https://img.shields.io/badge/Location-%C4%90%C3%A0%20N%E1%BA%B5ng%2C%20Vi%E1%BB%87t%20Nam-00d9ff?style=for-the-badge&labelColor=0d1117" alt="Location badge" />
+<br/>
 
-</div>
+<table width="100%">
+<tr>
+<td valign="top" width="62%">
 
-<br />
+### About
 
-### 👋 About Me
+I'm Nguyên — I write Django and Python for work. Most of what I ship sits at the
+spot where backend correctness meets actual user-facing software: APIs that
+don't silently lie, migrations that don't surprise anyone on Friday, and pages
+that arrive before the spinner does.
 
-I'm **Nguyên**, a **Software Development Engineer** based in **Đà Nẵng, Việt Nam**.  
-I enjoy building practical, polished web products with **Django**, **Python**, and modern frontend tools.
+Based in Đà Nẵng, Việt Nam. Right now I'm pushing on test coverage, trimming
+database round-trips, and getting sharper at the frontend half of the stack.
 
-- 🧠 I care about readable code, clean architecture, and useful user experiences.
-- 🚀 I like turning ideas into fast, maintainable web applications.
-- 🔧 Current stack: **Django**, **Python**, **REST APIs**, **PostgreSQL**, **HTML/CSS/JavaScript**.
-- 🌱 Always improving my backend depth and frontend craft.
+</td>
+<td valign="top" width="38%">
 
-### ⚡ Quick Snapshot
+<br/>
+
+<sub><b>STACK</b></sub><br/>
+<sub>Python · Django · PostgreSQL</sub><br/>
+<sub>JavaScript · TypeScript · React</sub><br/>
+<sub>Tailwind · Docker · Linux</sub>
+
+<br/>
+<br/>
+
+<sub><b>NOW</b></sub><br/>
+<sub>Backend depth, frontend craft.</sub>
+
+<br/>
+<br/>
+
+<sub><b>REACH</b></sub><br/>
+<sub><a href="mailto:phamkynguyen753@gmail.com">phamkynguyen753@gmail.com</a></sub>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### Snapshot
 
 ```python
 nguyen = {
     "name": "Nguyên",
     "role": "Software Development Engineer",
     "location": "Đà Nẵng, Việt Nam",
-    "main_stack": ["Python", "Django", "JavaScript"],
-    "interests": ["Web Apps", "APIs", "Integration", "Code Testing"],
+    "stack": ["Python", "Django", "JavaScript"],
+    "habits": ["read tracebacks", "name things twice", "ship small"],
 }
 ```
 
-<br />
+<br/>
 
-<div align="center">
+---
 
-## 🛠️ Tech Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,django,html,css,js,ts,bootstrap,tailwind,react,postgres,mysql,sqlite,git,github,docker,linux,vscode&theme=dark&perline=9" alt="Stack" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=py,django,html,css,js,ts,bootstrap,tailwind,react,postgres,mysql,sqlite,git,github,docker,linux,vscode&theme=dark&perline=9" alt="Skill icons" />
+---
 
-</div>
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nguyenrot&show_icons=true&theme=transparent&hide_border=true&title_color=0ea5e9&icon_color=0ea5e9&text_color=a1a1aa&rank_icon=github&include_all_commits=true&count_private=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nguyenrot&layout=compact&theme=transparent&hide_border=true&title_color=0ea5e9&text_color=a1a1aa&langs_count=8" alt="Top languages" />
+</p>
 
-<br />
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=nguyenrot&theme=transparent&hide_border=true&ring=0ea5e9&fire=0ea5e9&currStreakLabel=0ea5e9&sideLabels=a1a1aa&dates=71717a&currStreakNum=e2e8f0&sideNums=e2e8f0&background=00000000" alt="GitHub streak" />
+</p>
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nguyenrot&theme=react-dark&hide_border=true&bg_color=00000000&color=0ea5e9&line=0ea5e9&point=fafafa&area=true&area_color=0ea5e9" alt="Activity graph" width="100%" />
+</p>
 
-## 📊 GitHub Analytics
+---
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=nguyenrot&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&rank_icon=github&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nguyenrot&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" alt="Top languages" />
+<p align="center">
+  <a href="mailto:phamkynguyen753@gmail.com"><img src="https://img.shields.io/badge/Email-0ea5e9?style=flat-square&logo=gmail&logoColor=fafafa&labelColor=18181b" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/nguyen-pham-ky"><img src="https://img.shields.io/badge/LinkedIn-0ea5e9?style=flat-square&logo=linkedin&logoColor=fafafa&labelColor=18181b" alt="LinkedIn" /></a>
+  <a href="https://www.facebook.com/phkynguyen"><img src="https://img.shields.io/badge/Facebook-0ea5e9?style=flat-square&logo=facebook&logoColor=fafafa&labelColor=18181b" alt="Facebook" /></a>
+  <a href="https://www.instagram.com/phkynguyen"><img src="https://img.shields.io/badge/Instagram-0ea5e9?style=flat-square&logo=instagram&logoColor=fafafa&labelColor=18181b" alt="Instagram" /></a>
+  <a href="https://www.tiktok.com/@phamkynguyen"><img src="https://img.shields.io/badge/TikTok-0ea5e9?style=flat-square&logo=tiktok&logoColor=fafafa&labelColor=18181b" alt="TikTok" /></a>
+</p>
 
-<br />
-<br />
+<br/>
 
-<img src="https://streak-stats.demolab.com?user=nguyenrot&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub streak" />
-
-<br />
-<br />
-
-<img src="https://github-profile-trophy.vercel.app/?username=nguyenrot&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub trophies" />
-
-<br />
-<br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nguyenrot&theme=tokyo-night&hide_border=true&area=true&bg_color=0D1117&color=00D9FF&line=7F5AF0&point=2CB67D" alt="GitHub activity graph" />
-
-</div>
-
-<br />
-
-<div align="center">
-
-## 🌐 Connect With Me
-
-<a href="mailto:phamkynguyen753@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-</a>
-<a href="https://www.facebook.com/phkynguyen">
-  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-</a>
-<a href="https://www.linkedin.com/in/nguyen-pham-ky">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://www.instagram.com/phkynguyen">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-</a>
-<a href="https://www.tiktok.com/@phamkynguyen">
-  <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
-</a>
-
-<br />
-<br />
-
-<sub>✨ Built with Django energy, Python discipline, and a love for clean web experiences.</sub>
-
-</div>
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:2CB67D,50:00D9FF,100:7F5AF0&height=120&section=footer)
+<p align="center">
+  <sub>Code with clarity. Ship with care.</sub>
+</p>
