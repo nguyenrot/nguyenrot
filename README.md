@@ -6,8 +6,8 @@ I build backend systems, developer tools, and things I want to exist.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/identity-dark.svg">
-    <img src="./assets/identity-light.svg" alt="Stacked rounded plates with K and N cut through, one inner rim in copper" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/identity-dark.svg?v=2">
+    <img src="./assets/identity-light.svg?v=2" alt="Warm stacked plates with K and N cut through, one inner plate in copper" width="100%">
   </picture>
 </p>
 
@@ -15,39 +15,37 @@ I build backend systems, developer tools, and things I want to exist.
 
 ### GõViệt
 
-Vietnamese input for macOS, in the Unikey style: a menu-bar app that types in every program without switching input sources.
+Vietnamese input for macOS. A Unikey-style menu-bar app: type in every program without switching input sources.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/goviet-dark.svg">
-  <img src="./assets/goviet-light.svg" alt="Keystream v i e e j t passing through stacked plates and composing to việt, with a muted path where English text stays text" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/goviet-dark.svg?v=2">
+  <img src="./assets/goviet-light.svg?v=2" alt="Telex keys v i e e j t composing to việt, with English text staying as text" width="100%">
 </picture>
 
-A pure Rust engine owns Telex, VNI, tone placement, and syllable validation. Fourteen data-driven TSV corpora cover composition; `valid_prefix` restores English so `text` stays `text`, not `tẽt`.
-
-The Swift shell taps the system with `CGEventTap`. Fast apps get a direct inject; terminals are paced; Chromium gets select-and-retype so the omnibox does not fight backspace bursts. Every synthetic event is stamped `GVIT` so the tap ignores its own output.
+Rust composes Telex and VNI, then restores English so `text` stays `text`, not `tẽt`. Swift injects per app — fast, paced in terminals, select-and-retype in Chromium — and ignores its own `GVIT` events.
 
 <details>
 <summary>Architecture</summary>
-<p>Rust engine → C ABI with fixed-size buffers (no allocation on the hot path) → Swift <code>EventTapManager</code>, <code>TextInjector</code>, and per-bundle app profiles. A watchdog polls tap health. The signing identity is pinned so Accessibility permission survives rebuilds. UniKey-compatible edge cases — English words that are also valid Vietnamese syllables — are listed in <code>known_limitations.tsv</code> rather than papered over. Not notarized yet; the DMG is signed with an Apple Development cert.</p>
+<p>Pure composition in Rust (tone placement, syllable validation, fourteen TSV corpora) → C ABI with fixed-size buffers, no allocation on the hot path → Swift <code>EventTapManager</code>, <code>TextInjector</code>, and per-bundle app profiles. A watchdog polls tap health. The signing identity is pinned so Accessibility survives rebuilds. English words that are also valid Vietnamese syllables stay in <code>known_limitations.tsv</code> rather than being papered over. Not notarized yet; the DMG is signed with an Apple Development cert.</p>
 </details>
 
 [Repository](https://github.com/nguyenrot/goviet) · [Releases](https://github.com/nguyenrot/goviet/releases)
 
-### <img src="./assets/marks/lattice.svg" alt="" height="32"> Lattice
+### <img src="./assets/marks/lattice.svg?v=2" alt="" height="32"> Lattice
 
-Bilingual essays. Nuxt reads; Django and PostgreSQL publish. One content model, two languages — an API boundary in exchange for a reading surface that can move on its own.
+One content model, two languages. Nuxt reads; Django and PostgreSQL publish — an API boundary so the reading surface can move on its own.
 
 [lattice.kynguyen.cc](https://lattice.kynguyen.cc)
 
-### <img src="./assets/marks/lumi.svg" alt="" height="32"> Lumi
+### <img src="./assets/marks/lumi.svg?v=2" alt="" height="32"> Lumi
 
-A conversational AI workspace. A per-thread buffer receives server-sent events and renders each part as it arrives; polling takes over when the stream drops. Faster perceived response, in exchange for handling partial messages, reconnects, and unfinished Markdown.
+Answers arrive as a stream. A per-thread SSE buffer renders each part as it lands; incomplete Markdown is a state to handle, not a bug.
 
 [lumi.kynguyen.cc](https://lumi.kynguyen.cc)
 
-### <img src="./assets/marks/citadel.svg" alt="" height="32"> Citadel
+### <img src="./assets/marks/citadel.svg?v=2" alt="" height="32"> Citadel
 
-A hand-drawn tower defense in the browser. The simulation is headless and separate from Canvas, so bots can play stages and check balance before art changes reach the screen.
+The rules run without a screen. A headless simulation plays stages with bots before the Canvas art is allowed to change.
 
 [citadel.kynguyen.cc](https://citadel.kynguyen.cc)
 
@@ -56,11 +54,6 @@ The rest of the ecosystem lives at [kynguyen.cc](https://kynguyen.cc).
 ## How I work
 
 Most of what I ship sits where backend correctness meets software people actually use: APIs that don't silently lie, migrations that don't surprise anyone on Friday, boundaries you can point to. I write the dull parts well — the rest gets easier.
-
-## Stack
-
-Python · Django · PostgreSQL  
-TypeScript · Vue · Rust
 
 ---
 
