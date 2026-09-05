@@ -1,114 +1,69 @@
-<a href="https://github.com/nguyenrot">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:18181b,100:0ea5e9&height=150&section=header&text=Nguy%C3%AAn&fontSize=68&fontColor=fafafa&fontAlignY=40&animation=fadeIn" alt="Header banner" width="100%" />
-</a>
+# Nguyên
+
+Software Engineer · Đà Nẵng
+
+I build backend systems, developer tools, and things I want to exist.
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=900&duration=3000&color=0EA5E9&center=true&vCenter=true&width=760&lines=Software+Development+Engineer+%C2%B7+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam;Django+%C2%B7+Python+%C2%B7+PostgreSQL+%C2%B7+REST+APIs;Write+the+dull+parts+well+%E2%80%94+the+rest+gets+easier" alt="Headline rotator" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/identity-dark.svg">
+    <img src="./assets/identity-light.svg" alt="Stacked rounded plates with K and N cut through, one inner rim in copper" width="100%">
+  </picture>
 </p>
 
-<p align="center">
-  <img src="./assets/profile-3d-v3.svg" alt="Animated coding workspace" width="100%" />
-</p>
+## Selected work
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nguyenrot&style=flat-square&color=0ea5e9&labelColor=18181b&label=profile+views" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/nguyenrot?style=flat-square&logo=github&logoColor=fafafa&color=0ea5e9&labelColor=18181b&label=followers" alt="GitHub followers" />
-  <img src="https://img.shields.io/badge/focus-Django%20%26%20Python-0ea5e9?style=flat-square&labelColor=18181b" alt="Focus" />
-</p>
+### GõViệt
 
-<br/>
+Vietnamese input for macOS, in the Unikey style: a menu-bar app that types in every program without switching input sources.
 
-<table width="100%">
-<tr>
-<td valign="top" width="62%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/goviet-dark.svg">
+  <img src="./assets/goviet-light.svg" alt="Keystream v i e e j t passing through stacked plates and composing to việt, with a muted path where English text stays text" width="100%">
+</picture>
 
-### About
+A pure Rust engine owns Telex, VNI, tone placement, and syllable validation. Fourteen data-driven TSV corpora cover composition; `valid_prefix` restores English so `text` stays `text`, not `tẽt`.
 
-I'm Nguyên — I write Django and Python for work. Most of what I ship sits at the
-spot where backend correctness meets actual user-facing software: APIs that
-don't silently lie, migrations that don't surprise anyone on Friday, and pages
-that arrive before the spinner does.
+The Swift shell taps the system with `CGEventTap`. Fast apps get a direct inject; terminals are paced; Chromium gets select-and-retype so the omnibox does not fight backspace bursts. Every synthetic event is stamped `GVIT` so the tap ignores its own output.
 
-Based in Đà Nẵng, Việt Nam. Right now I'm pushing on test coverage, trimming
-database round-trips, and getting sharper at the frontend half of the stack.
+<details>
+<summary>Architecture</summary>
+<p>Rust engine → C ABI with fixed-size buffers (no allocation on the hot path) → Swift <code>EventTapManager</code>, <code>TextInjector</code>, and per-bundle app profiles. A watchdog polls tap health. The signing identity is pinned so Accessibility permission survives rebuilds. UniKey-compatible edge cases — English words that are also valid Vietnamese syllables — are listed in <code>known_limitations.tsv</code> rather than papered over. Not notarized yet; the DMG is signed with an Apple Development cert.</p>
+</details>
 
-</td>
-<td valign="top" width="38%">
+[Repository](https://github.com/nguyenrot/goviet) · [Releases](https://github.com/nguyenrot/goviet/releases)
 
-<br/>
+### <img src="./assets/marks/lattice.svg" alt="" height="32"> Lattice
 
-<sub><b>STACK</b></sub><br/>
-<sub>Python · Django · PostgreSQL</sub><br/>
-<sub>JavaScript · TypeScript · React</sub><br/>
-<sub>Tailwind · Docker · Linux</sub>
+Bilingual essays. Nuxt reads; Django and PostgreSQL publish. One content model, two languages — an API boundary in exchange for a reading surface that can move on its own.
 
-<br/>
-<br/>
+[lattice.kynguyen.cc](https://lattice.kynguyen.cc)
 
-<sub><b>NOW</b></sub><br/>
-<sub>Backend depth, frontend craft.</sub>
+### <img src="./assets/marks/lumi.svg" alt="" height="32"> Lumi
 
-<br/>
-<br/>
+A conversational AI workspace. A per-thread buffer receives server-sent events and renders each part as it arrives; polling takes over when the stream drops. Faster perceived response, in exchange for handling partial messages, reconnects, and unfinished Markdown.
 
-<sub><b>REACH</b></sub><br/>
-<sub><a href="mailto:phamkynguyen753@gmail.com">phamkynguyen753@gmail.com</a></sub>
+[lumi.kynguyen.cc](https://lumi.kynguyen.cc)
 
-</td>
-</tr>
-</table>
+### <img src="./assets/marks/citadel.svg" alt="" height="32"> Citadel
 
-<br/>
+A hand-drawn tower defense in the browser. The simulation is headless and separate from Canvas, so bots can play stages and check balance before art changes reach the screen.
 
-### Snapshot
+[citadel.kynguyen.cc](https://citadel.kynguyen.cc)
 
-```python
-nguyen = {
-    "name": "Nguyên",
-    "role": "Software Development Engineer",
-    "location": "Đà Nẵng, Việt Nam",
-    "stack": ["Python", "Django", "JavaScript"],
-    "habits": ["read tracebacks", "name things twice", "ship small"],
-}
-```
+The rest of the ecosystem lives at [kynguyen.cc](https://kynguyen.cc).
 
-<br/>
+## How I work
+
+Most of what I ship sits where backend correctness meets software people actually use: APIs that don't silently lie, migrations that don't surprise anyone on Friday, boundaries you can point to. I write the dull parts well — the rest gets easier.
+
+## Stack
+
+Python · Django · PostgreSQL  
+TypeScript · Vue · Rust
 
 ---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,django,html,css,js,ts,bootstrap,tailwind,react,postgres,mysql,sqlite,git,github,docker,linux,vscode&theme=dark&perline=9" alt="Stack" />
-</p>
+## Elsewhere
 
----
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nguyenrot&show_icons=true&theme=transparent&hide_border=true&title_color=0ea5e9&icon_color=0ea5e9&text_color=a1a1aa&rank_icon=github&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nguyenrot&layout=compact&theme=transparent&hide_border=true&title_color=0ea5e9&text_color=a1a1aa&langs_count=8" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=nguyenrot&theme=transparent&hide_border=true&ring=0ea5e9&fire=0ea5e9&currStreakLabel=0ea5e9&sideLabels=a1a1aa&dates=71717a&currStreakNum=e2e8f0&sideNums=e2e8f0&background=00000000" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nguyenrot&theme=react-dark&hide_border=true&bg_color=00000000&color=0ea5e9&line=0ea5e9&point=fafafa&area=true&area_color=0ea5e9" alt="Activity graph" width="100%" />
-</p>
-
----
-
-<p align="center">
-  <a href="mailto:phamkynguyen753@gmail.com"><img src="https://img.shields.io/badge/Email-0ea5e9?style=flat-square&logo=gmail&logoColor=fafafa&labelColor=18181b" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/nguyen-pham-ky"><img src="https://img.shields.io/badge/LinkedIn-0ea5e9?style=flat-square&logo=linkedin&logoColor=fafafa&labelColor=18181b" alt="LinkedIn" /></a>
-  <a href="https://www.facebook.com/phkynguyen"><img src="https://img.shields.io/badge/Facebook-0ea5e9?style=flat-square&logo=facebook&logoColor=fafafa&labelColor=18181b" alt="Facebook" /></a>
-  <a href="https://www.instagram.com/phkynguyen"><img src="https://img.shields.io/badge/Instagram-0ea5e9?style=flat-square&logo=instagram&logoColor=fafafa&labelColor=18181b" alt="Instagram" /></a>
-  <a href="https://www.tiktok.com/@phamkynguyen"><img src="https://img.shields.io/badge/TikTok-0ea5e9?style=flat-square&logo=tiktok&logoColor=fafafa&labelColor=18181b" alt="TikTok" /></a>
-</p>
-
-<br/>
-
-<p align="center">
-  <sub>Code with clarity. Ship with care.</sub>
-</p>
+[kynguyen.cc](https://kynguyen.cc) · [nguyen@kynguyen.cc](mailto:nguyen@kynguyen.cc) · [LinkedIn](https://www.linkedin.com/in/nguyen-pham-ky)
